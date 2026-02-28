@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout from GitHub') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/TejaswiniChelluri/node-k8s-app.git'
             }
         }
